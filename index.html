@@ -14,62 +14,77 @@
     <header>
         <div class="containerLogo"><img src="assets/image/LOGO_BRETE SEM FUNDO.png" alt="" class="imgLogo"></div>
         <nav class="navbar">
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul id="ulList">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
+            <div class="containerHBG" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </nav>
     </header>
 
-    <div class="banner">
-        <iframe class="video" 
-            src="https://www.youtube.com/embed/NTS_s1815g4?autoplay=1" 
-            title="BRETE BRAZIL - Vinheta de Abertura 2018" 
-            frameborder="0" 
-            allow="autoplay; encrypted-media" 
+    <div class="banner" id="inicio">
+        <iframe class="video" src="https://www.youtube.com/embed/NTS_s1815g4?autoplay=1&mute=1"
+            title="BRETE BRAZIL - Vinheta de Abertura 2018" frameborder="0" allow="autoplay; encrypted-media"
             allowfullscreen>
         </iframe>
     </div>
     <!-- Conteúdo principal -->
+    <div id="sobre"></div>
     <main class="main">
 
         <div class="principalContent">
-            
-            <div class="imgContentPC">
-                
+
+            <section class="imgContentPC">
+
                 <img src="assets/image/CBreteImageVT.jpg" alt="Foto  do Carlinhos Brete">
 
                 <h2>Carlinhos Brete</h2>
-                <h3>Carlinhos Brete criador do programa Brete Brazil nas estradas</h3>
-                <p>Apresentador, escritor e roteirista com 03 programas idealizados em segmentos diferentes!</p>
+                <h3>Criador do programa Brete Brazil nas estradas,
+                    apresentador, escritor e roteirista com 03 programas idealizados em
+                    segmentos diferentes.</h3>
 
-            </div>
-            <div class="textContentPC">
+            </section>
+            <section class="textContentPC">
 
                 <h2>quem somos</h2>
 
-                <p> Programa Brete Brazil nas estradas nasceu em 2004 pela vontade que Carlinhos Brete tinha de mostrar
-                    cidades e seus costumes,artistas de grande talento porém desconhecidos,estradas e suas paisagens
-                    diferenciadas, foi veiculado em várias emissoras ao longo do tempo,inclusive na Rede Família do
-                    grupo Record e na TV Brasil ambas em todos os estados!
-                    É um programa itinerante, onde os cenários preferidos são os que a mãe oferece!
-                    E os conteúdos tem faixa etária livre!
+                <p>
+                    O Programa Brete Brazil nas estradas nasceu
+                    em 2004 pela vontade que Carlinhos Brete
+                    tinha de mostrar cidades e seus costumes,
+                    artistas de grande talento, porém
+                    desconhecidos, estradas e suas paisagens
+                    diferenciadas. Foi veiculado em várias
+                    emissoras ao longo do tempo, inclusive na
+                    Rede Família do grupo Record e na TV Brasil,
+                    ambas em todos os estados.
+                    É um programa itinerante, onde os cenários
+                    preferidos são os que a mãe natureza oferece! E os
+                    conteúdos tem faixa etária livre!
                 </p>
 
-            </div>
+            </section>
         </div>
         <!-- Seção de artigos -->
+        <div id="contato"></div>
         <div class="containerPresenter">
             <section class="sectionPresenter">
                 <div class="imgContainer"><img src="assets/image/JoyImage1.jpg" alt="Apresentadora Susy Joy"> </div>
                 <h2>Percorrendo</h2>
-                <p>É um quadro apresentado pela cantora,compositora,atriz Susy Joy filha do cantor Bob Joy considerado o
-                    "Rei do country nacional" e de Linda Maria ( in memória) participou do comando maluco de Beto
-                    Carrero interpretando a personagem Batatinha ao lado de DEDÉ Santana ( os trapalhões) ‐----- Estou
-                    muito feliz em receber como apresentadora do programa Brete Brazil minha amiga Susy Joy,além de
-                    participar do programa ela terá disponibilidade para cantar em grandes eventos mostrando todo seu
-                    carisma e simpatia! Disse Carlinhos Brete</p>
+                <p>É um quadro apresentado pela cantora, compositora e atriz Susy Joy, filha do
+                    cantor Bob Joy considerado o "Rei do country nacional" e Linda Maria (in
+                    memorian).
+                    Participou do comando maluco de Beto Carrero interpretando a personagem
+                    Batatinha ao lado de Dedé Santana (Os trapalhões).
+                    - “Estou muito feliz em receber como apresentadora do programa Brete Brazil
+                    minha amiga Susy Joy. Além de participar do programa ela terá
+                    disponibilidade para cantar em grandes eventos mostrando todo seu carisma e
+                    simpatia!” Disse Carlinhos Brete.</p>
 
             </section>
 
@@ -77,20 +92,22 @@
                 <div class="imgContainer"><img src="assets/image/FernandoSImage.jpg" alt="Apresentador Fernando Sousa">
                 </div>
                 <h2>Empreenda Brasil</h2>
-                <p>é o espaço onde Fernando Sousa Brasil – mentor de empreendedores, políticos e líderes – revela
-                    táticas e estratégias essenciais para vencer no competitivo mundo dos negócios. Com dicas afiadas
-                    sobre vendas, marketing, gestão e networking, este quadro mostra como transformar visão em ação,
-                    abrindo caminho para grandes conquistas e consolidando a autoridade daqueles que lideram com
-                    propósito e paixão.</p>
+                <p>É o espaço onde Fernando Sousa Brasil - mentor de empreendedores, políticos
+                    e líderes – revela táticas e estratégias essenciais para vencer no competitivo
+                    mundo dos negócios. Com dicas afiadas sobre vendas, marketing, gestão e
+                    networking. Este quadro mostra como transformar visão em ação, abrindo
+                    caminho para grandes conquistas e consolidando a autoridade daqueles que
+                    lideram com propósito e paixão.</p>
 
             </section>
 
             <section class="sectionPresenter">
                 <div class="imgContainer"><img src="assets/image/BrutusImage.jpg" alt="Apresentador Brutus"> </div>
                 <h2>Brutus estrada e campo</h2>
-                <p> quadro apresentado pelo locutor de rodeio,radialista e artista circense Jotta Ramos o mundo das
-                    grandes máquinas colheitadeiras,tratores e bitrens mostrados no programa Brete Brazil,além das
-                    curiosidades do Campo e do mundo do Circo!</p>
+                <p>É o quadro apresentado pelo locutor de rodeio, radialista e artista circense
+                    Jotta Ramos. É o mundo das grandes máquinas colheitadeiras, tratores e
+                    bitrens mostrados no programa Brete Brazil, além das curiosidades do Campo
+                    e do mundo do Circo.</p>
 
             </section>
 
@@ -98,10 +115,11 @@
 
                 <div class="imgContainer"><img src="assets/image/LeticiaCimage2.jpg" alt="Apresentador Brutus"> </div>
 
-                <h2>Tema do Quadro da Letícia</h2>
-                <p>Leticia Campos acordeonista, cantora e apresentadora mostra no programa BreteBrazil as belezas
-                    naturais de Minas Gerais seu estado natal em um clima musical com interpretação da anfitriã e de
-                    artistas convidados! Lindas paisagens em cenários naturais compõe o quadro!
+                <h2>Percorrendo Minas Gerais</h2>
+                <p>Letícia Campos é acordeonista, cantora e apresentadora e mostra no Programa
+                    Brete Brazil as belezas naturais de Minas Gerais, seu estado natal, em um
+                    clima musical com a interpretação da anfitriã e de artistas convidados.
+                    Lindas paisagens em cenários naturais compõem o quadro!
                 </p>
 
             </section>
@@ -114,6 +132,27 @@
     <footer>
         <p>&copy; 2024 Brete Brazil. Todos os direitos reservados.</p>
     </footer>
+
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+
+
+        var button = document.querySelector(".containerHBG");
+
+        button.addEventListener('click', function () {
+            var y = document.getElementById("ulList");
+            if (y.style.display === "none" || y.style.display === "") {
+                y.style.display = "flex";
+                y.style.flexDirection = "column";
+            } else {
+                y.style.display = "none";
+            }
+        });
+
+    </script>
 
 </body>
 
