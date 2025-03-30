@@ -194,7 +194,7 @@ footer {
     /* Cor de destaque */
 }
 
-@media(max-width: 770px) {
+@media(max-width: 768px) {
 
     .banner {
         display: flex;
